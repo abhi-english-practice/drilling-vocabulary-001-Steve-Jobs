@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#081116">
+<title>Six Short Stories | Vocabulary in Context — Abhi · Uyen</title>
+<style>
+:root{--night:#081116;--night2:#121d23;--line:#32434b;--ink:#27231b;--paper:#e2d6bd;--paper2:#f8f4e8;--rust:#99502f;--yellow:#ffdc4b;--blue:#78def0;--green:#0b7e68;--soft:#a8b9c0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--night);color:#f6f6f2;font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}button,select,input,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:default;opacity:.38}a{color:inherit}button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,.vocab:focus-visible{outline:3px solid var(--blue);outline-offset:3px}h1,h2,h3,p{margin-top:0}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.shell{max-width:1450px;margin:auto}.topbar{min-height:100px;display:flex;align-items:center;justify-content:space-between;padding:22px clamp(18px,6.7vw,110px);gap:18px;background:#081116}.brand{font-weight:800;letter-spacing:.16em;font-size:12px;text-transform:uppercase}.brand span{color:#afb3ad}.view-toggle{display:flex;border-radius:90px;background:#182126;padding:7px;gap:4px}.view-toggle button{border:0;border-radius:60px;background:transparent;color:#c9d0d1;padding:12px 26px;font-size:14px;font-weight:800}.view-toggle button.active{background:var(--yellow);color:#151717}.view-toggle button.active.reading-active{background:#e9d4a4;color:#222}
+.view{display:none}.view.active{display:block}.reading-wrap{background:#192220;padding:0 clamp(12px,6vw,90px) 54px}.reading-page{max-width:1200px;margin:auto;min-height:70vh;color:var(--ink);background:var(--paper);background-image:radial-gradient(#543d1e15 .65px,transparent .7px);background-size:7px 7px;box-shadow:0 18px 45px #0004}.reading-hero{padding:39px clamp(25px,5vw,70px) 25px;border-top:10px solid #a67a43}.eyebrow{font-weight:800;letter-spacing:.16em;color:var(--rust);font-size:12px;text-transform:uppercase;line-height:1.5}.reading-hero h1{font:700 clamp(49px,7.6vw,94px)/.97 Georgia,'Times New Roman',serif;letter-spacing:-.045em;margin:18px 0 20px;max-width:1000px}.reading-hero p{font-size:17px;color:#514638;line-height:1.6;max-width:710px}.reader-controls{padding:0 clamp(25px,5vw,70px) 18px}.playerbar{border-top:1px solid #a89577;border-bottom:1px solid #a89577;padding:15px 0;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.action{border:1px solid #b7a483;background:transparent;color:#332b21;border-radius:25px;font-weight:800;padding:12px 17px;font-size:14px;white-space:nowrap}.action.primary{background:#0b7966;color:#fff;border-color:#0b7966}.action:hover:not(:disabled){filter:brightness(.94)}.seeker{min-width:90px;flex:1;accent-color:#0f8572;cursor:pointer}.time{font-size:12px;color:#675b4c;font-variant-numeric:tabular-nums;white-space:nowrap}.rate{background:transparent;border:0;padding:6px;color:inherit;font-size:13px;cursor:pointer}.rate.dark{color:#fff}.smallcaps{font-size:11px;letter-spacing:.15em;font-weight:800;color:#936646;text-transform:uppercase}.reader-index{padding:0 clamp(25px,5vw,70px) 22px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}.index-btn{border:1px solid #ae997b;background:#efe6d2;color:#6e5f4a;font-weight:800;font-size:12px;border-radius:50px;padding:9px 15px}.index-btn.current{background:#27231b;color:#f3e5cd;border-color:#27231b}.mini-meta{margin-left:auto;font-size:12px;color:#705c46}.story{margin:0 clamp(25px,5vw,70px);padding:25px 0 31px;border-top:1px solid #aa9675;scroll-margin-top:18px}.story-header{display:flex;align-items:center;gap:18px;margin-bottom:17px}.story .section-num{color:var(--rust);font-weight:800;letter-spacing:.18em;font-size:11px}.story .section-rule{height:1px;background:#bba789;flex:1}.story h2{font:700 clamp(26px,3vw,38px)/1.12 Georgia,serif;margin:0 0 12px}.story-content{font:400 clamp(20px,2.65vw,29px)/1.83 Georgia,'Times New Roman',serif;text-align:justify;text-justify:inter-word;letter-spacing:-.013em}.reading-sentence{transition:background .12s;box-decoration-break:clone;-webkit-box-decoration-break:clone}.reading-sentence.is-playing{background:#f7e698;border-radius:4px}.vocab{font-weight:700;color:#262019;text-decoration:underline;text-decoration-color:#a85d35;text-decoration-thickness:1.5px;text-underline-offset:5px;cursor:pointer;border-radius:2px}.vocab:hover{background:#f7e8ba}.readtools{display:flex;gap:10px;align-items:center;margin:15px 0 0;flex-wrap:wrap}.smallbtn{border:1px solid #b19d7d;background:#eee3cc;border-radius:20px;padding:7px 14px;font-size:12px;font-weight:800;color:#644b33}.vi-copy{margin-top:14px;border-left:3px solid #99502f;padding:2px 0 2px 16px;font-size:16px;line-height:1.85;color:#714934}.vi-copy[hidden]{display:none}.reading-footer{margin:20px clamp(25px,5vw,70px) 0;padding:24px 0 44px;border-top:1px solid #bba789;color:#6a5949;font-size:12px;display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.practice-wrap{padding:40px clamp(15px,3.1vw,46px) 55px;max-width:1550px;margin:auto;display:grid;grid-template-columns:minmax(270px, .77fr) minmax(0,1.05fr);align-items:stretch;gap:25px}.editorial{border:1px solid #394951;background:#172027;border-radius:25px;overflow:hidden;display:flex;flex-direction:column}.art{aspect-ratio:1.04;background:#d3a96c;position:relative;overflow:hidden}.art svg{display:block;width:100%;height:100%}.editorial-copy{padding:27px 28px 32px}.editorial-copy .smallcaps{color:#d07a50}.editorial h2{font:700 clamp(30px,3.1vw,45px)/1.09 Georgia,serif;margin:12px 0}.editorial p{color:#a8b8be;line-height:1.55;font-size:14px}.editorial-details{margin-top:auto;border-top:1px solid #33444d;padding:20px 28px;color:#c1d0d5;font-size:13px;line-height:1.7}.editorial-details strong{color:#ffdc4b}.workbench{border:1px solid #344650;background:#121c22;border-radius:25px;padding:clamp(19px,2.4vw,32px);min-width:0;min-height:720px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:27px}.tabs button{background:transparent;border:1px solid #3c4c56;border-radius:22px;padding:12px 17px;color:#e1e5e8;font-size:13px;font-weight:800}.tabs button.active{background:var(--blue);border-color:var(--blue);color:#09171c}.tabs button:hover:not(.active){background:#23343e}.practice-kicker{font-size:12px;color:#a5bac5;letter-spacing:.16em;font-weight:800}.practice-heading{display:flex;gap:15px;align-items:center;justify-content:space-between;margin:15px 0 24px}.practice-heading h2{font-size:clamp(27px,3vw,43px);line-height:1.12;letter-spacing:-.045em;margin:0;font-weight:800}.number{border:1px solid #364b57;border-radius:22px;padding:14px 17px;font-size:32px;font-weight:400;line-height:1;font-variant-numeric:tabular-nums}.passage-picker,.sentence-picker{display:block;width:100%;background:#10191e;border:1px solid #364951;border-radius:13px;padding:14px 15px;color:#e8eced;font-size:15px;margin:10px 0 18px;min-width:0}.practice-player{border:1px solid #364b56;border-radius:21px;padding:19px 20px;display:flex;gap:16px;align-items:center;margin:6px 0 18px;min-width:0}.play-disc{background:var(--yellow);border:0;color:#071419;width:60px;height:60px;border-radius:50%;font-size:27px;flex-shrink:0;display:flex;align-items:center;justify-content:center}.player-inner{min-width:0;flex:1}.player-inner strong{font-size:12px;letter-spacing:.12em}.player-inner p{font-size:13px;color:#c5d1d5;margin:6px 0 12px}.practice-progress{display:flex;align-items:center;gap:13px}.practice-progress input{width:100%;accent-color:var(--blue);min-width:40px}.practice-progress time{color:#9caeb8;font-size:12px;white-space:nowrap}.helper{color:#a7b9c2;font-size:13px;line-height:1.6;margin:12px 0 16px}.helper .dot{color:var(--blue);margin-right:8px}.follow-text{border:1px solid #33444c;border-left:5px solid var(--yellow);background:#1b252e;border-radius:17px;padding:24px 24px 28px;max-height:370px;overflow:auto;font-size:clamp(21px,2.6vw,34px);line-height:1.89;letter-spacing:-.025em;font-weight:800;color:#85939d;text-align:justify;text-justify:inter-word}.follow-sentence{cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:6px}.follow-sentence.current{color:#0d202a;background:var(--blue);outline:3px solid #78def044}.follow-term{text-decoration:underline;text-decoration-style:dotted;text-underline-offset:5px}.practice-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;align-items:center}.p-btn{border:1px solid #405560;background:#172630;color:#edf3f4;border-radius:12px;padding:12px 15px;font-size:13px;font-weight:800}.p-btn.hot{background:var(--yellow);color:#192124;border-color:var(--yellow)}.p-btn:focus-visible{outline-color:var(--yellow)}.statusline{min-height:28px;color:#c4d0d4;font-size:13px;margin-top:16px}.study-panel{margin-top:24px;padding-top:17px;border-top:1px solid #34464c}.study-panel h3{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#99abb5}.focus-tags{display:flex;flex-wrap:wrap;gap:8px}.focus-tag{border:1px solid #46616f;border-radius:20px;font-size:12px;color:#bdd8e2;background:#20303b;padding:6px 10px;cursor:pointer}.focus-tag:hover{background:#2b4552}
+.builder-box{border:1px dashed #4d6673;border-radius:16px;padding:18px;min-height:90px;display:flex;gap:9px;flex-wrap:wrap;align-content:flex-start;align-items:flex-start;background:#17252c}.builder-box.empty:before{content:'Tap the chunks to rebuild the original sentence.';font-size:14px;color:#91a5ad}.chunk{border:1px solid #557381;background:#233946;color:#edfafc;padding:12px 15px;border-radius:10px;font-weight:700;font-size:15px;line-height:1.55;text-align:left}.chunk.selected{background:var(--blue);color:#101f24;border-color:var(--blue)}.chunkbank{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 0}.builder-vi{border-left:3px solid #b57a52;padding:10px 15px;background:#273035;color:#ebd1b2;margin:12px 0 18px;font-size:15px;line-height:1.6}.reveal{padding:15px;margin-top:13px;border-radius:12px;background:#233139;color:#e8f7ff;font:22px/1.58 Georgia,serif}.feedback{font-size:14px;line-height:1.5;margin-top:12px;color:#cad5d9;min-height:22px}.feedback.good{color:#a4f0cd}.feedback.bad{color:#ffd1ae}.typearea{width:100%;min-height:180px;background:#101a20;border:1px solid #415660;color:#f4f7f8;border-radius:15px;padding:17px;resize:vertical;line-height:1.7;font-size:17px}.typearea::placeholder{color:#80929b}.passage-nav{display:flex;gap:10px;justify-content:space-between;align-items:center;margin-top:26px;border-top:1px solid #354650;padding-top:17px}.passage-nav span{font-size:13px;color:#a9bbc3}.offscreen{display:none!important}
+.dialog-backdrop{position:fixed;inset:0;background:#0008;z-index:40;display:none;align-items:center;justify-content:center;padding:18px}.dialog-backdrop.open{display:flex}.dialog{width:min(470px,100%);background:#fffdf7;border-radius:22px;color:#26231c;overflow:hidden;box-shadow:0 25px 90px #0006}.dialog-head{padding:26px 28px 23px;position:relative}.dialog-title{font:700 clamp(26px,3vw,35px)/1.15 Georgia,serif;max-width:360px;margin:13px 0 18px}.dialog-close{border:0;background:transparent;font-size:25px;position:absolute;right:20px;top:16px;padding:4px 9px}.dialog-speak{border:1px solid #c9b38f;border-radius:99px;padding:7px 12px;background:#fff9e8;font-weight:700}.dialog-vi{font-size:18px}.dialog-bottom{background:#f2e7d3;padding:20px 28px 0}.dialog-def{color:#674a38;font-size:14px;line-height:1.6}.dialog-example{border-top:1px solid #d9c9b0;padding:16px 0;color:#514738;font-size:14px;line-height:1.6}.dialog-actions{display:flex;margin:0 -28px}.dialog-actions button{width:50%;padding:20px 10px;border:0;font-size:14px;font-weight:800;background:#1bc6a8;color:#132120}.dialog-actions button:last-child{background:#ffdf79}.dialog-state{font-size:12px;color:#68492b;margin-bottom:10px}
+.site-footer{padding:10px 25px 34px;text-align:center;color:#77898f;font-size:12px;letter-spacing:.08em} 
+@media(max-width:900px){.practice-wrap{grid-template-columns:1fr}.editorial{display:grid;grid-template-columns:minmax(160px,.7fr) 1fr}.art{aspect-ratio:auto;min-height:220px}.editorial-details{display:none}.editorial-copy{padding:20px}.editorial h2{font-size:31px}.workbench{min-height:auto}}
+@media(max-width:610px){.topbar{padding:16px 14px;min-height:77px}.brand{font-size:10px;letter-spacing:.09em}.brand span{display:none}.view-toggle{padding:4px}.view-toggle button{padding:10px 13px;font-size:12px}.reading-wrap{padding:0 7px 25px}.reading-hero{padding:26px 21px 18px}.reading-hero h1{font-size:50px}.reading-hero p{font-size:14px}.reader-controls,.reader-index{padding-left:21px;padding-right:21px}.playerbar{gap:8px}.action{padding:9px 12px;font-size:12px}.seeker{flex-basis:60%;order:2}.time{order:2}.rate{padding:4px}.mini-meta{width:100%;margin:5px 0 0}.story{margin:0 21px;padding:25px 0}.story-content{text-align:left;font-size:21px;line-height:1.7}.reading-footer{margin-left:21px;margin-right:21px}.practice-wrap{padding:18px 11px 26px;gap:14px}.editorial{grid-template-columns:38% 1fr;border-radius:18px}.editorial .art{min-height:180px}.editorial-copy{padding:16px}.editorial h2{font-size:24px}.editorial p{font-size:12px}.workbench{padding:16px;border-radius:18px}.tabs{gap:6px;margin-bottom:22px}.tabs button{padding:10px 12px;font-size:12px}.practice-heading h2{font-size:30px}.number{font-size:24px;padding:11px}.practice-player{padding:12px;gap:11px}.play-disc{width:50px;height:50px}.follow-text{font-size:22px;padding:16px;line-height:1.75;max-height:360px;text-align:left}.p-btn{padding:10px 12px;font-size:12px}.practice-progress time{font-size:10px}.dialog-head{padding:22px}.dialog-bottom{padding:19px 22px 0}.dialog-actions{margin-left:-22px;margin-right:-22px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Practice highlights stay readable in both active and inactive sentences. */
+.follow-text{text-align:left}
+.follow-text .vocab{color:inherit;text-decoration-color:#c9b976}
+.follow-sentence.current .vocab{text-decoration-color:#236f80}
+
+/* Wide-screen practice: artwork above the heading; full-width, larger reading passage. */
+.practice-wrap{
+  width:100%; max-width:1460px;
+  padding:24px clamp(12px,3vw,42px) 50px;
+  display:grid; grid-template-columns:minmax(0,1fr);
+  gap:18px; align-items:start;
+}
+.practice-wrap .editorial{
+  display:flex; flex-direction:column; min-height:0;
+  border-radius:23px;
+}
+.practice-wrap .art{
+  height:180px; min-height:0; aspect-ratio:auto;
+  display:flex; align-items:center; justify-content:center;
+  background-color:#dfbd83;
+  background-image:radial-gradient(#54371f28 .8px,transparent 1px);
+  background-size:13px 13px;
+  border-bottom:1px solid #7b5a3b66;
+}
+.practice-wrap .art svg{
+  display:block; width:auto; max-width:100%; height:100%;
+  flex:0 0 auto;
+}
+.practice-wrap .editorial-copy{
+  display:grid; grid-template-columns:minmax(260px,.8fr) minmax(0,1fr);
+  column-gap:26px; row-gap:7px;
+  align-items:center; padding:17px 28px;
+}
+.practice-wrap .editorial-copy .smallcaps{grid-column:1 / -1}
+.practice-wrap .editorial h2{font-size:clamp(29px,2.7vw,40px);margin:0}
+.practice-wrap .editorial p{margin:0;line-height:1.55;font-size:14px}
+.practice-wrap .editorial-details{
+  display:block; margin-top:0; padding:8px 28px 11px;
+  font-size:12px;line-height:1.55;
+}
+.practice-wrap .workbench{
+  width:100%; min-height:0; padding:clamp(18px,2.8vw,36px);
+}
+.practice-wrap .practice-heading h2{font-size:clamp(30px,3.1vw,46px)}
+.practice-wrap .follow-text{
+  max-height:none; overflow:visible;
+  font-size:clamp(28px,3vw,42px); line-height:1.77;
+  letter-spacing:-.014em;
+  color:#c5d2d9;
+  text-align:justify; text-justify:inter-word;
+  padding:clamp(20px,3.2vw,38px);
+}
+.practice-wrap .follow-sentence.current{color:#0d202a}
+.practice-wrap .chunk{font-size:17px}
+.practice-wrap .builder-vi{font-size:17px}
+.practice-wrap .typearea{font-size:19px}
+@media (max-width:900px){
+  .practice-wrap{grid-template-columns:minmax(0,1fr)}
+  .practice-wrap .editorial{display:flex;flex-direction:column}
+  .practice-wrap .art{height:164px;min-height:0}
+  .practice-wrap .editorial-copy{grid-template-columns:1fr 1fr}
+  .practice-wrap .follow-text{font-size:clamp(27px,3.6vw,35px)}
+}
+@media (max-width:610px){
+  .practice-wrap{padding:13px 10px 30px;gap:12px}
+  .practice-wrap .editorial{border-radius:18px}
+  .practice-wrap .art{height:136px;min-height:0}
+  .practice-wrap .editorial-copy{grid-template-columns:1fr;gap:5px;padding:15px 18px}
+  .practice-wrap .editorial-copy .smallcaps{grid-column:auto}
+  .practice-wrap .editorial h2{font-size:29px;line-height:1.1}
+  .practice-wrap .editorial p{font-size:12px;line-height:1.45}
+  .practice-wrap .editorial-details{padding:8px 18px 11px;font-size:11px}
+  .practice-wrap .workbench{padding:18px 14px;border-radius:18px}
+  .practice-wrap .practice-heading h2{font-size:clamp(26px,6.6vw,32px)}
+  .practice-wrap .follow-text{
+    max-height:none;overflow:visible;
+    padding:20px 17px;
+    font-size:clamp(24px,5.9vw,30px);
+    line-height:1.77;letter-spacing:-.014em;
+    text-align:left;
+  }
+  .practice-wrap .builder-vi{font-size:16px}
+  .practice-wrap .chunk{font-size:16px}
+  .practice-wrap .typearea{font-size:18px}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="topbar"><div class="brand">ABHI · UYEN <span>/ THE READING ROOM</span></div><nav class="view-toggle" aria-label="Study mode"><button class="active reading-active" id="readingTab" type="button">Reading</button><button id="practiceTab" type="button">Practice</button></nav></header>
+<main>
+<section id="readingView" class="view active"><div class="reading-wrap"><div class="reading-page"><header class="reading-hero"><div class="eyebrow">EVERYDAY STORIES · VOCABULARY IN CONTEXT</div><h1>Six Short Stories.<br>One Better Vocabulary.</h1><p>Read naturally. Tap an underlined expression to study its meaning. Listen to each story, then rebuild the language in Practice.</p></header>
+<div class="reader-controls"><div class="playerbar"><button id="readerPlay" class="action primary">▶ Listen</button><button id="readerPlayAll" class="action">Play all 6</button><button id="readerStop" class="action">■ Stop</button><input id="readerSeek" class="seeker" type="range" min="0" max="1000" value="0" aria-label="Audio position"><span id="readerTime" class="time">0:00 / 0:00</span><select class="rate" id="readerRate" aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option></select><button id="viToggle" class="action" aria-pressed="false">VI · OFF</button></div></div>
+<div class="reader-index"><span class="smallcaps">JUMP TO</span><div id="readerToc" style="display:flex;gap:7px;flex-wrap:wrap"></div><span id="termCount" class="mini-meta">16 expressions · 0 studied</span></div><div id="stories"></div><footer class="reading-footer"><span>Designed by Abhi-Uyen</span><span>6 stories · 16 expressions · 19 sentences</span></footer></div></div></section>
+<section id="practiceView" class="view"><div class="practice-wrap"><aside class="editorial"><div class="art" aria-hidden="true"><svg viewBox="0 0 620 610" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#54371f" stroke-width=".65" opacity=".2"/></pattern><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1.8" cy="1.8" r=".75" fill="#56351e" opacity=".28"/></pattern></defs><rect width="620" height="610" fill="#dfbd83"/><rect width="620" height="610" fill="url(#grid)"/><rect width="620" height="610" fill="url(#dots)"/><g fill="none" stroke="#573920" stroke-width="3.1" opacity=".65"><path d="M22 75H160V145H235M37 180H174V246H265M470 50V138H515V220M592 310H515V255H476M6 400H145V346H190M54 510H155V459H210M603 515H460V488H399"/><circle cx="160" cy="75" r="8"/><circle cx="235" cy="145" r="8"/><circle cx="174" cy="180" r="8"/><circle cx="515" cy="220" r="8"/><circle cx="145" cy="400" r="8"/><circle cx="399" cy="488" r="8"/></g><g transform="rotate(-4 320 325)"><ellipse cx="314" cy="510" rx="233" ry="27" fill="#78532a" opacity=".2"/><path d="M160 156L457 161L443 407L171 401Z" fill="#f5d8a0" stroke="#5b3d26" stroke-width="8"/><path d="M186 176H429V338H186Z" fill="#765b39" stroke="#503620" stroke-width="8"/><rect x="201" y="190" width="213" height="134" fill="#272f2c"/><g stroke="#95bc9a" stroke-width="3" opacity=".8"><path d="M217 211H320M217 230H375M217 249H348M217 267H394M217 289H357"/><circle cx="378" cy="210" r="11"/></g><rect x="284" y="352" width="49" height="18" rx="4" fill="#745538"/><path d="M161 410L445 415L501 462L111 464Z" fill="#d6ae70" stroke="#503620" stroke-width="7"/><g stroke="#7b5c39" stroke-width="3"><path d="M186 426H423M172 439H440M148 453H470"/></g><path d="M468 135L530 110L553 123L509 170Z" fill="#c89458" stroke="#4b3324" stroke-width="6"/><path d="M512 170L550 232" stroke="#624632" stroke-width="11"/><path d="M541 233H597" stroke="#624632" stroke-width="10"/></g><text x="34" y="42" font-family="monospace" font-size="15" letter-spacing="4" fill="#624224">INNOVATION / 01—06</text><text x="33" y="565" font-family="Georgia,serif" font-size="27" fill="#614126">WORDS BUILD WORLDS</text><path d="M35 573H579" stroke="#704b2d" stroke-width="2"/></svg></div><div class="editorial-copy"><div class="smallcaps">SPEAKING PRACTICE</div><h2>Vocabulary in Context</h2><p>Follow the recording. Build the original sentences. Listen and type with precision.</p></div><div class="editorial-details"><strong>THE PRACTICE FLOW</strong><br>Understand → Notice → Recall → Rebuild → Apply<br><span id="practiceMeta">6 passages · 19 sentences</span></div></aside>
+<div class="workbench"><div class="tabs" role="tablist" aria-label="Practice activities"><button class="active" type="button" data-mode="follow">Follow &amp; speak</button><button type="button" data-mode="build">Build with chunks</button><button type="button" data-mode="type">Listen &amp; type</button></div><div class="practice-kicker" id="practiceKicker">FOLLOW & SPEAK</div><div class="practice-heading"><h2 id="practiceHeadline">Follow the sentence.<br>Keep your rhythm.</h2><div class="number" id="practiceNumber">01</div></div><label class="sr-only" for="passagePicker">Choose a passage</label><select id="passagePicker" class="passage-picker"></select>
+<div class="practice-player"><button id="practicePlay" class="play-disc" aria-label="Listen to passage">▶</button><div class="player-inner"><strong>LISTEN FIRST · OPTIONAL</strong><p id="playerTip">Follow the highlighted sentence as you listen.</p><div class="practice-progress"><input id="practiceSeek" type="range" min="0" max="1000" value="0" aria-label="Audio progress"><time id="practiceTime">0:00 / 0:00</time></div></div></div>
+<div id="followPane"><p class="helper"><span class="dot">●</span>The highlight follows sentence boundaries in the audio. Tap a sentence to select it.</p><div class="follow-text" id="followText"></div><div class="practice-actions"><button class="p-btn" id="followPrev">← Previous sentence</button><button class="p-btn hot" id="followRepeat">▶ Listen to sentence</button><button class="p-btn" id="followNext">Next sentence →</button></div><div class="statusline" id="followStatus" aria-live="polite">Ready when you are.</div></div>
+<div id="buildPane" class="offscreen"><label for="buildSentencePicker" class="smallcaps">GO TO SENTENCE</label><select id="buildSentencePicker" class="sentence-picker"></select><div class="practice-kicker" style="margin:17px 0 8px">VIETNAMESE HINT</div><div id="buildVi" class="builder-vi"></div><div style="display:flex;gap:8px;margin-bottom:17px;flex-wrap:wrap"><button id="buildViToggle" class="p-btn">Hide hint</button><button id="buildListen" class="p-btn">▶ Listen to sentence</button></div><div class="builder-box empty" id="buildTarget"></div><div class="chunkbank" id="buildBank"></div><div class="practice-actions"><button id="buildCheck" class="p-btn hot">Check</button><button id="buildHint" class="p-btn">Hint</button><button id="buildClear" class="p-btn">Clear</button><button id="buildAnswer" class="p-btn">Show answer</button></div><div id="buildFeedback" class="feedback" aria-live="polite"></div><div id="buildReveal" class="reveal offscreen"></div><div class="passage-nav"><button class="p-btn" id="buildPrev">← Prev</button><span id="buildProgress">0 / 19 complete</span><button class="p-btn" id="buildNext">Next →</button></div></div>
+<div id="typePane" class="offscreen"><label class="smallcaps" for="typeSentencePicker">GO TO SENTENCE</label><select id="typeSentencePicker" class="sentence-picker"></select><p class="helper">Listen to the sentence, then type exactly what you hear. Punctuation differences are ignored when checking.</p><textarea id="typeInput" class="typearea" placeholder="Type the sentence you hear…" spellcheck="false" autocomplete="off"></textarea><div class="practice-actions"><button id="typeListen" class="p-btn hot">▶ Listen to sentence</button><button id="typeCheck" class="p-btn hot">Check</button><button id="typeClear" class="p-btn">Clear</button><button id="typeShow" class="p-btn">Show answer</button></div><div class="feedback" id="typeFeedback" aria-live="polite"></div><div class="reveal offscreen" id="typeReveal"></div><div class="passage-nav"><button class="p-btn" id="typePrev">← Prev</button><span id="typeProgress">Sentence 1 / 19</span><button class="p-btn" id="typeNext">Next →</button></div></div>
+<div class="study-panel"><h3>Words to notice <span id="focusCount"></span></h3><div class="focus-tags" id="focusTags"></div></div>
+</div></div></section>
+</main><footer class="site-footer">Designed by Abhi-Uyen · Vocabulary drilling</footer>
+</div>
+<div id="vocabBackdrop" class="dialog-backdrop" role="presentation"><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle"><div class="dialog-head"><button id="dialogClose" class="dialog-close" aria-label="Close definition">×</button><button id="dialogSpeak" class="dialog-speak" title="Speaks with a device/browser voice, not the recording">◖)) · Speak phrase</button><div id="dialogType" class="smallcaps" style="margin-top:14px"></div><div id="dialogTitle" class="dialog-title"></div><div id="dialogVi" class="dialog-vi"></div></div><div class="dialog-bottom"><div id="dialogDef" class="dialog-def"></div><div id="dialogExample" class="dialog-example"></div><div class="dialog-state" id="dialogState"></div><div class="dialog-actions"><button id="dialogKnow">I know this</button><button id="dialogStudy">Study</button></div></div></div></div>
+<audio id="sourceAudio" preload="metadata"></audio>
+<script>const LESSON={
+  "passages": [
+    {
+      "title": "A New Beginning",
+      "text": "When Emma was born, her biological parents were unable to raise her, so they decided to give her up for adoption. She was adopted by a loving couple who provided her with a stable home. As she grew older, she became curious about her background, but she always felt grateful for the family who had raised her.",
+      "audio": "01_A_New_Beginning.mp3",
+      "sentences": [
+        "When Emma was born, her biological parents were unable to raise her, so they decided to give her up for adoption.",
+        "She was adopted by a loving couple who provided her with a stable home.",
+        "As she grew older, she became curious about her background, but she always felt grateful for the family who had raised her."
+      ],
+      "times": [
+        [
+          2.3,
+          8.8
+        ],
+        [
+          9.56,
+          13.92
+        ],
+        [
+          14.51,
+          20.85
+        ]
+      ],
+      "vietnamese": [
+        "Khi Emma chào đời, cha mẹ ruột không có khả năng nuôi dưỡng cô nên quyết định cho cô làm con nuôi.",
+        "Cô được một cặp vợ chồng giàu tình thương nhận nuôi, những người đã mang đến cho cô một mái ấm ổn định.",
+        "Khi lớn lên, cô bắt đầu tò mò về nguồn gốc của mình nhưng luôn biết ơn gia đình đã nuôi dưỡng cô."
+      ],
+      "chunks": [
+        [
+          "When Emma was born,",
+          "her biological parents were unable to raise her,",
+          "so they decided to",
+          "give her up for adoption."
+        ],
+        [
+          "She was adopted by",
+          "a loving couple",
+          "who provided her with a stable home."
+        ],
+        [
+          "As she grew older,",
+          "she became curious about her background,",
+          "but she always felt grateful",
+          "for the family who had raised her."
+        ]
+      ]
+    },
+    {
+      "title": "A Friendship That Lasted",
+      "text": "Leo and Daniel met at university and quickly bonded over a shared interest in robotics. They spent hours working on small projects together. However, Daniel eventually dropped out of college to start his own business. Although they followed different career paths, they remained close friends and continued sharing ideas.",
+      "audio": "02_A_Friendship_That_Lasted.mp3",
+      "sentences": [
+        "Leo and Daniel met at university and quickly bonded over a shared interest in robotics.",
+        "They spent hours working on small projects together.",
+        "However, Daniel eventually dropped out of college to start his own business.",
+        "Although they followed different career paths, they remained close friends and continued sharing ideas."
+      ],
+      "times": [
+        [
+          3.03,
+          8.35
+        ],
+        [
+          9.1,
+          11.7
+        ],
+        [
+          12.62,
+          16.56
+        ],
+        [
+          17.47,
+          23.31
+        ]
+      ],
+      "vietnamese": [
+        "Leo và Daniel gặp nhau ở đại học và nhanh chóng trở nên thân thiết nhờ cùng yêu thích robot học.",
+        "Họ dành hàng giờ cùng nhau làm các dự án nhỏ.",
+        "Tuy nhiên, cuối cùng Daniel đã bỏ học đại học giữa chừng để tự kinh doanh.",
+        "Mặc dù theo đuổi những con đường sự nghiệp khác nhau, họ vẫn là bạn thân và tiếp tục chia sẻ ý tưởng."
+      ],
+      "chunks": [
+        [
+          "Leo and Daniel met at university",
+          "and quickly bonded over a shared interest",
+          "in robotics."
+        ],
+        [
+          "They spent hours",
+          "working on small projects together."
+        ],
+        [
+          "However, Daniel eventually",
+          "dropped out of college",
+          "to start his own business."
+        ],
+        [
+          "Although they followed different career paths,",
+          "they remained close friends",
+          "and continued sharing ideas."
+        ]
+      ]
+    },
+    {
+      "title": "A Simple Idea, A Big Success",
+      "text": "A small technology company developed a language-learning app for older adults. The app quickly became a huge success because it was affordable and accessible to everyday users, including people with little experience of smartphones. Instead of adding complicated features, the developers focused on making learning simple and enjoyable.",
+      "audio": "03_A_Simple_Idea_A_Big_Success.mp3",
+      "sentences": [
+        "A small technology company developed a language-learning app for older adults.",
+        "The app quickly became a huge success because it was affordable and accessible to everyday users, including people with little experience of smartphones.",
+        "Instead of adding complicated features, the developers focused on making learning simple and enjoyable."
+      ],
+      "times": [
+        [
+          4.17,
+          8.68
+        ],
+        [
+          9.43,
+          19.24
+        ],
+        [
+          20.09,
+          26.63
+        ]
+      ],
+      "vietnamese": [
+        "Một công ty công nghệ nhỏ đã phát triển một ứng dụng học ngôn ngữ dành cho người lớn tuổi.",
+        "Ứng dụng nhanh chóng đạt được thành công lớn vì có giá cả phải chăng và dễ tiếp cận đối với người dùng phổ thông, kể cả những người ít kinh nghiệm sử dụng điện thoại thông minh.",
+        "Thay vì bổ sung các tính năng phức tạp, nhóm phát triển tập trung làm cho việc học trở nên đơn giản và thú vị."
+      ],
+      "chunks": [
+        [
+          "A small technology company",
+          "developed a language-learning app",
+          "for older adults."
+        ],
+        [
+          "The app quickly became a huge success",
+          "because it was affordable",
+          "and accessible to everyday users,",
+          "including people with little experience of smartphones."
+        ],
+        [
+          "Instead of adding complicated features,",
+          "the developers focused on",
+          "making learning simple and enjoyable."
+        ]
+      ]
+    },
+    {
+      "title": "Technology Meets Design",
+      "text": "After taking a year off, Sarah returned to her post at a leading technology company. She was excited to work with cutting-edge technology, but she believed that innovation should make people's lives easier. Her team developed smart devices that were both stylish and easy to use, proving that good design could combine beauty with practicality.",
+      "audio": "04_Technology_Meets_Design.mp3",
+      "sentences": [
+        "After taking a year off, Sarah returned to her post at a leading technology company.",
+        "She was excited to work with cutting-edge technology, but she believed that innovation should make people's lives easier.",
+        "Her team developed smart devices that were both stylish and easy to use, proving that good design could combine beauty with practicality."
+      ],
+      "times": [
+        [
+          2.96,
+          8.09
+        ],
+        [
+          8.68,
+          15.99
+        ],
+        [
+          16.75,
+          25.89
+        ]
+      ],
+      "vietnamese": [
+        "Sau một năm nghỉ việc, Sarah quay trở lại vị trí công tác tại một công ty công nghệ hàng đầu.",
+        "Cô rất hào hứng được làm việc với công nghệ tiên tiến nhất nhưng tin rằng đổi mới sáng tạo phải giúp cuộc sống con người dễ dàng hơn.",
+        "Nhóm của cô đã phát triển các thiết bị thông minh vừa có kiểu dáng đẹp vừa dễ sử dụng, chứng minh rằng thiết kế tốt có thể kết hợp tính thẩm mỹ với tính thực tiễn."
+      ],
+      "chunks": [
+        [
+          "After taking a year off,",
+          "Sarah returned to her post",
+          "at a leading technology company."
+        ],
+        [
+          "She was excited to work with",
+          "cutting-edge technology,",
+          "but she believed that innovation",
+          "should make people's lives easier."
+        ],
+        [
+          "Her team developed smart devices",
+          "that were both stylish and easy to use,",
+          "proving that good design",
+          "could combine beauty with practicality."
+        ]
+      ]
+    },
+    {
+      "title": "Bringing Stories to Life",
+      "text": "A young filmmaker dreamed of creating stories that could inspire children around the world. She wanted to contribute to the development of computer animation, so she spent several years producing a full-length animated film about friendship and courage. To everyone's surprise, the film became a blockbuster, attracting millions of viewers and receiving widespread praise.",
+      "audio": "05_Bringing_Stories_to_Life.mp3",
+      "sentences": [
+        "A young filmmaker dreamed of creating stories that could inspire children around the world.",
+        "She wanted to contribute to the development of computer animation, so she spent several years producing a full-length animated film about friendship and courage.",
+        "To everyone's surprise, the film became a blockbuster, attracting millions of viewers and receiving widespread praise."
+      ],
+      "times": [
+        [
+          2.62,
+          7.66
+        ],
+        [
+          8.17,
+          17.12
+        ],
+        [
+          17.48,
+          24.56
+        ]
+      ],
+      "vietnamese": [
+        "Một nhà làm phim trẻ mơ ước tạo ra những câu chuyện có thể truyền cảm hứng cho trẻ em trên toàn thế giới.",
+        "Cô muốn đóng góp vào sự phát triển của hoạt hình máy tính nên đã dành nhiều năm sản xuất một bộ phim hoạt hình dài về tình bạn và lòng dũng cảm.",
+        "Điều khiến mọi người bất ngờ là bộ phim đã trở thành một tác phẩm ăn khách, thu hút hàng triệu khán giả và nhận được nhiều lời khen ngợi."
+      ],
+      "chunks": [
+        [
+          "A young filmmaker dreamed of",
+          "creating stories that could inspire children",
+          "around the world."
+        ],
+        [
+          "She wanted to contribute to",
+          "the development of computer animation,",
+          "so she spent several years producing",
+          "a full-length animated film",
+          "about friendship and courage."
+        ],
+        [
+          "To everyone's surprise,",
+          "the film became a blockbuster,",
+          "attracting millions of viewers",
+          "and receiving widespread praise."
+        ]
+      ]
+    },
+    {
+      "title": "A Legacy That Lives On",
+      "text": "A respected medical researcher was diagnosed with a rare disease in her forties. Despite the challenges, she fought the disease for several years while continuing to support younger scientists. When she eventually passed away, her colleagues remembered her as a visionary whose innovative ideas had helped improve patient care and inspired future generations.",
+      "audio": "06_A_Legacy_That_Lives_On.mp3",
+      "sentences": [
+        "A respected medical researcher was diagnosed with a rare disease in her forties.",
+        "Despite the challenges, she fought the disease for several years while continuing to support younger scientists.",
+        "When she eventually passed away, her colleagues remembered her as a visionary whose innovative ideas had helped improve patient care and inspired future generations."
+      ],
+      "times": [
+        [
+          3.76,
+          8.8
+        ],
+        [
+          9.7,
+          16.45
+        ],
+        [
+          17.4,
+          28.91
+        ]
+      ],
+      "vietnamese": [
+        "Một nhà nghiên cứu y khoa được kính trọng được chẩn đoán mắc một căn bệnh hiếm gặp khi ngoài 40 tuổi.",
+        "Bất chấp những khó khăn, bà đã chiến đấu chống lại bệnh tật trong nhiều năm, đồng thời tiếp tục hỗ trợ các nhà khoa học trẻ.",
+        "Khi bà qua đời, các đồng nghiệp nhớ đến bà như một người có tầm nhìn xa, người có những ý tưởng đổi mới giúp cải thiện việc chăm sóc bệnh nhân và truyền cảm hứng cho các thế hệ sau."
+      ],
+      "chunks": [
+        [
+          "A respected medical researcher",
+          "was diagnosed with a rare disease",
+          "in her forties."
+        ],
+        [
+          "Despite the challenges,",
+          "she fought the disease for several years",
+          "while continuing to support younger scientists."
+        ],
+        [
+          "When she eventually passed away,",
+          "her colleagues remembered her as a visionary",
+          "whose innovative ideas had helped improve patient care",
+          "and inspired future generations."
+        ]
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "needle": "give her up for adoption",
+      "head": "give somebody up for adoption",
+      "type": "Verb pattern",
+      "vi": "cho ai đó làm con nuôi",
+      "en": "Arrange for another family to become the child’s legal parents."
+    },
+    {
+      "needle": "was adopted by",
+      "head": "be adopted by somebody",
+      "type": "Passive pattern",
+      "vi": "được ai đó nhận nuôi",
+      "en": "Become someone’s child legally through adoption."
+    },
+    {
+      "needle": "bonded over a shared interest",
+      "head": "bond over a shared interest",
+      "type": "Verb + preposition",
+      "vi": "trở nên thân thiết nhờ sở thích chung",
+      "en": "Become closer because of a shared interest or experience."
+    },
+    {
+      "needle": "dropped out of college",
+      "head": "drop out of college",
+      "type": "Phrasal verb",
+      "vi": "bỏ học đại học giữa chừng",
+      "en": "Leave college before completing a course."
+    },
+    {
+      "needle": "became a huge success",
+      "head": "become a huge success",
+      "type": "Useful chunk",
+      "vi": "trở thành một thành công lớn",
+      "en": "Become very successful."
+    },
+    {
+      "needle": "accessible to everyday users",
+      "head": "accessible to everyday users",
+      "type": "Adjective pattern",
+      "vi": "dễ tiếp cận với người dùng phổ thông",
+      "en": "Easy for ordinary people to obtain, understand or use."
+    },
+    {
+      "needle": "returned to her post",
+      "head": "return to one's post",
+      "type": "Useful chunk",
+      "vi": "quay lại vị trí công tác",
+      "en": "Resume a job or position after time away."
+    },
+    {
+      "needle": "cutting-edge technology",
+      "head": "cutting-edge technology",
+      "type": "Collocation",
+      "vi": "công nghệ tiên tiến nhất",
+      "en": "Technology at a very advanced stage of development."
+    },
+    {
+      "needle": "stylish and easy to use",
+      "head": "stylish and easy to use",
+      "type": "Descriptive chunk",
+      "vi": "có kiểu dáng đẹp và dễ sử dụng",
+      "en": "Attractive in design and simple to operate."
+    },
+    {
+      "needle": "contribute to",
+      "head": "contribute to something",
+      "type": "Verb + preposition",
+      "vi": "đóng góp vào",
+      "en": "Help make something happen or develop."
+    },
+    {
+      "needle": "a full-length animated film",
+      "head": "a full-length animated film",
+      "type": "Noun phrase",
+      "vi": "một bộ phim hoạt hình dài",
+      "en": "An animated film long enough to be shown as a feature film."
+    },
+    {
+      "needle": "a blockbuster",
+      "head": "a blockbuster",
+      "type": "Noun",
+      "vi": "một tác phẩm ăn khách",
+      "en": "A film or other work that is very successful commercially."
+    },
+    {
+      "needle": "was diagnosed with a rare disease",
+      "head": "be diagnosed with a disease",
+      "type": "Passive pattern",
+      "vi": "được chẩn đoán mắc bệnh",
+      "en": "Be told by a medical professional that one has a particular illness."
+    },
+    {
+      "needle": "fought the disease",
+      "head": "fight the disease",
+      "type": "Collocation",
+      "vi": "chiến đấu chống lại bệnh tật",
+      "en": "Make a sustained effort to overcome or survive an illness."
+    },
+    {
+      "needle": "passed away",
+      "head": "pass away",
+      "type": "Phrasal verb",
+      "vi": "qua đời",
+      "en": "Die; a gentler and more sensitive expression."
+    },
+    {
+      "needle": "a visionary",
+      "head": "a visionary",
+      "type": "Noun",
+      "vi": "người có tầm nhìn xa",
+      "en": "A person who imagines and plans for a better future."
+    }
+  ]
+};</script>
+<script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id), P=LESSON.passages, TERMS=LESSON.terms, audio=$('sourceAudio');
+const state={view:'reading',mode:'follow',passage:0,sentence:0,playingPart:-1,range:null,playAll:false,vi:false,hint:true,gloss:null,studying:new Set(),known:new Set(),buildPick:{},completed:new Set(),typed:{},typingPassed:new Set(),showBuilder:false,showType:false,loopToken:0};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=t=>{t=Math.max(0,Math.floor(Number(t)||0));return `${Math.floor(t/60)}:${String(t%60).padStart(2,'0')}`};
+const norm=s=>String(s).toLowerCase().replace(/[’]/g,"'").replace(/[^a-z0-9'\s-]/g,'').replace(/[-]+/g,' ').replace(/\s+/g,' ').trim();
+const termRegex=new RegExp('('+TERMS.map(x=>x.needle.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).sort((a,b)=>b.length-a.length).join('|')+')','gi');
+function rich(text){let output='',start=0;termRegex.lastIndex=0;for(const m of text.matchAll(termRegex)){output+=esc(text.slice(start,m.index));const idx=TERMS.findIndex(x=>x.needle.toLowerCase()===m[0].toLowerCase());output+=`<span class="vocab" tabindex="0" role="button" data-term="${idx}" title="Open meaning">${esc(m[0])}</span>`;start=m.index+m[0].length}return output+esc(text.slice(start))}
+function storyHTML(p,i){return `<article class="story" id="story-${i}"><div class="story-header"><span class="section-num">PART ${String(i+1).padStart(2,'0')}</span><span class="section-rule"></span></div><h2>${esc(p.title)}</h2><p class="story-content">${p.sentences.map((s,j)=>`<span class="reading-sentence" data-rp="${i}" data-rs="${j}">${rich(s)}</span>`).join(' ')}</p><div class="readtools"><button class="smallbtn" data-playpart="${i}">▶ Listen to this story</button><span class="time">${p.sentences.length} sentences · ${P[i].times.length} listening cues</span></div><div class="vi-copy" id="vi-${i}" hidden>${p.vietnamese.map(esc).join(' ')}</div></article>`}
+function renderReading(){ $('stories').innerHTML=P.map(storyHTML).join('');$('readerToc').innerHTML=P.map((_,i)=>`<button class="index-btn${state.passage===i?' current':''}" data-jump="${i}">${String(i+1).padStart(2,'0')}</button>`).join(''); updateFocus()}
+function updateFocus(){ $('termCount').textContent=`${TERMS.length} expressions · ${state.studying.size} studying · ${state.known.size} known`; $('focusCount').textContent=`(${state.studying.size} studying)`;const active=TERMS.map((t,i)=>({...t,i})).filter(t=>P[state.passage].text.toLowerCase().includes(t.needle.toLowerCase())); $('focusTags').innerHTML=active.map(t=>`<button class="focus-tag" data-term="${t.i}">${esc(t.head)}${state.studying.has(t.i)?' ★':''}</button>`).join('')}
+function showGloss(i){const t=TERMS[i];if(!t)return;state.gloss=i;$('dialogType').textContent=t.type;$('dialogTitle').textContent=t.head;$('dialogVi').textContent=t.vi;$('dialogDef').textContent=t.en;const p=P.find(x=>x.text.toLowerCase().includes(t.needle.toLowerCase()));$('dialogExample').textContent=p?p.sentences.find(s=>s.toLowerCase().includes(t.needle.toLowerCase())):''; $('vocabBackdrop').classList.add('open');updateGlossState();$('dialogClose').focus()}
+function updateGlossState(){let i=state.gloss;$('dialogState').textContent=state.known.has(i)?'Marked as known':state.studying.has(i)?'Added to Study':'Choose how you want to practise this expression';$('dialogKnow').textContent=state.known.has(i)?'✓ I know this':'I know this';$('dialogStudy').textContent=state.studying.has(i)?'✓ Studying':'Study'}
+function closeGloss(){$('vocabBackdrop').classList.remove('open');state.gloss=null}
+function setView(v){if(v===state.view)return;stop();state.view=v;$('readingView').classList.toggle('active',v==='reading');$('practiceView').classList.toggle('active',v==='practice');$('readingTab').classList.toggle('active',v==='reading');$('readingTab').classList.toggle('reading-active',v==='reading');$('practiceTab').classList.toggle('active',v==='practice'); if(v==='practice')renderPractice();window.scrollTo({top:0,behavior:'instant'})}
+function setPassage(i,options={}){i=Math.max(0,Math.min(P.length-1,i));if(!options.keepAudio)stop();state.passage=i;state.sentence=0;state.showBuilder=false;state.showType=false;renderReadingToc();renderPractice(); if(options.scroll) $('story-'+i).scrollIntoView({behavior:'smooth',block:'start'});updateFocus()}
+function renderReadingToc(){$('readerToc').querySelectorAll('button').forEach((b,i)=>b.classList.toggle('current',i===state.passage))}
+function stop(){state.playAll=false;state.range=null;state.loopToken++; audio.pause();if(audio.readyState)audio.currentTime=0;updatePlayer();markPlayingSentence(-1,-1)}
+function loadPart(pi){if(state.playingPart===pi)return;audio.pause();state.playingPart=pi;audio.src=P[pi].audio;audio.load();}
+function startPart(pi,all=false){if(state.playingPart===pi&& !audio.paused && state.range===null){audio.pause();updatePlayer();return} state.playAll=all;state.range=null;loadPart(pi);state.passage=pi;renderReadingToc();renderPractice();updateFocus();audio.currentTime=0;audio.play().catch(()=>showStatus('Audio could not play. Check that the MP3 is in the same folder as index.html.'));updatePlayer()}
+function playSentence(pi,si){stop();loadPart(pi);state.passage=pi;state.sentence=si;state.range={part:pi,sentence:si,end:P[pi].times[si][1]};const token=++state.loopToken;const begin=P[pi].times[si][0];const launch=()=>{if(token!==state.loopToken)return;audio.currentTime=begin;audio.play().catch(()=>showStatus('Audio unavailable: check MP3 files.'));renderPractice();updateFocus();updatePlayer()};if(audio.readyState>=1)launch();else audio.addEventListener('loadedmetadata',launch,{once:true})}
+function togglePracticePlay(){if(state.playingPart===state.passage&&!audio.paused){audio.pause();updatePlayer()}else if(state.playingPart===state.passage &&audio.paused &&audio.readyState>=1&&audio.currentTime>0){audio.play().catch(()=>{});}else startPart(state.passage)}
+function markPlayingSentence(pi,si){document.querySelectorAll('.reading-sentence.is-playing').forEach(e=>e.classList.remove('is-playing'));if(pi<0)return;const x=document.querySelector(`.reading-sentence[data-rp="${pi}"][data-rs="${si}"]`);if(x)x.classList.add('is-playing')}
+function updatePlayer(){const t=audio.currentTime||0,d=Number.isFinite(audio.duration)?audio.duration:0,percent=d?Math.min(1000,Math.round(t/d*1000)):0;['readerSeek','practiceSeek'].forEach(id=>$(id).value=String(percent));['readerTime','practiceTime'].forEach(id=>$(id).textContent=`${fmt(t)} / ${fmt(d)}`);$('practicePlay').textContent=audio.paused?'▶':'Ⅱ';$('readerPlay').textContent=audio.paused?'▶ Listen':'Ⅱ Pause';$('readerPlayAll').textContent=state.playAll?'Ⅱ Play all 6':'Play all 6';}
+function syncListening(){updatePlayer();const pi=state.playingPart;if(pi<0||audio.paused)return;const sec=P[pi].times.findIndex(([a,b])=>audio.currentTime>=a&&audio.currentTime<=b);markPlayingSentence(pi,sec);if(state.view==='practice'&&state.mode==='follow'&&state.passage===pi&&sec!==-1&&sec!==state.sentence){state.sentence=sec;renderFollow()}if(state.range && audio.currentTime >=state.range.end-0.045){audio.pause();state.range=null;updatePlayer()}}
+function showStatus(msg){$('followStatus').textContent=msg}
+audio.addEventListener('timeupdate',syncListening);audio.addEventListener('loadedmetadata',updatePlayer);audio.addEventListener('pause',updatePlayer);audio.addEventListener('play',updatePlayer);audio.addEventListener('ended',()=>{const next=state.playingPart+1,all=state.playAll;state.range=null;if(all&&next<P.length)startPart(next,true);else{state.playAll=false;updatePlayer();markPlayingSentence(-1,-1)}});audio.addEventListener('error',()=>showStatus('Audio not found. Upload all 6 MP3 files beside index.html.'));
+function setMode(mode){if(mode===state.mode)return;stop();state.mode=mode;state.showBuilder=false;state.showType=false;renderPractice()}
+function getSentenceRef(){return P[state.passage].sentences[state.sentence]}
+function renderPractice(){const i=state.passage; const labels=['FOLLOW & SPEAK','BUILD WITH CHUNKS','LISTEN & TYPE'];const headlines={follow:'Follow the sentence.<br>Keep your rhythm.',build:'Build the sentence.<br>Own the structure.',type:'Listen carefully.<br>Write what you hear.'};$('practiceKicker').textContent=labels[['follow','build','type'].indexOf(state.mode)];$('practiceHeadline').innerHTML=headlines[state.mode];$('practiceNumber').textContent=String(i+1).padStart(2,'0');$('passagePicker').value=String(i);document.querySelectorAll('[data-mode]').forEach(el=>el.classList.toggle('active',el.dataset.mode===state.mode)); ['follow','build','type'].forEach(m=>$(m+'Pane').classList.toggle('offscreen',m!==state.mode));$('playerTip').textContent=state.mode==='follow'?'Follow the highlighted sentence as you listen.':'Audio from the original six recordings.';renderFollow();renderBuild();renderType();updateFocus();updatePlayer()}
+function renderFollow(){const p=P[state.passage];$('followText').innerHTML=p.sentences.map((s,j)=>`<span data-follow="${j}" class="follow-sentence${state.sentence===j?' current':''}">${rich(s)}</span>`).join(' ');$('followPrev').disabled=state.sentence<=0;$('followNext').disabled=state.sentence>=p.sentences.length-1;$('followStatus').textContent=`Sentence ${state.sentence+1} of ${p.sentences.length} · Tap any sentence to select it.`}
+function currentKey(){return `${state.passage}-${state.sentence}`}
+function makeSentenceOptions(){return P[state.passage].sentences.map((s,j)=>`<option value="${j}">Sentence ${j+1} — ${esc(s.slice(0,48))}${s.length>48?'…':''}</option>`).join('')}
+function scramble(list,seed){const seq=list.map((v,i)=>({v,i}));for(let x=seq.length-1;x>0;x--){const y=((seed+1)*37+x*19+x*x*7)%(x+1);[seq[x],seq[y]]=[seq[y],seq[x]]}if(seq.every((x,i)=>x.i===i)&&seq.length>1)seq.reverse();return seq}
+function renderBuild(){const pi=state.passage,si=state.sentence,key=currentKey(),p=P[pi];$('buildSentencePicker').innerHTML=makeSentenceOptions();$('buildSentencePicker').value=String(si);$('buildVi').textContent=p.vietnamese[si];$('buildVi').classList.toggle('offscreen',!state.hint);$('buildViToggle').textContent=state.hint?'Hide hint':'Show hint';const selected=state.buildPick[key]||[];$('buildTarget').classList.toggle('empty',selected.length===0);$('buildTarget').innerHTML=selected.map(i=>`<button class="chunk selected" data-used="${i}">${esc(p.chunks[si][i])}</button>`).join('');const pool=scramble(p.chunks[si],pi*11+si).filter(x=>!selected.includes(x.i));$('buildBank').innerHTML=pool.map(x=>`<button class="chunk" data-bank="${x.i}">${esc(x.v)}</button>`).join('');$('buildReveal').classList.toggle('offscreen',!state.showBuilder);$('buildReveal').textContent=state.showBuilder?p.sentences[si]:'';$('buildPrev').disabled=pi===0&&si===0;$('buildNext').disabled=pi===P.length-1&&si===p.sentences.length-1;$('buildProgress').textContent=`${state.completed.size} / ${P.reduce((n,x)=>n+x.sentences.length,0)} complete`}
+function renderType(){const key=currentKey();$('typeSentencePicker').innerHTML=makeSentenceOptions();$('typeSentencePicker').value=String(state.sentence);$('typeInput').value=state.typed[key]||'';$('typeReveal').classList.toggle('offscreen',!state.showType);$('typeReveal').textContent=state.showType?getSentenceRef():'';$('typePrev').disabled=state.passage===0&&state.sentence===0;$('typeNext').disabled=state.passage===P.length-1&&state.sentence===P[state.passage].sentences.length-1;$('typeProgress').textContent=`Sentence ${state.sentence+1} / ${P[state.passage].sentences.length} · ${state.typingPassed.size} correct`}
+function navigateSentence(delta){let pi=state.passage,si=state.sentence+delta;if(si<0&&pi>0){pi--;si=P[pi].sentences.length-1}else if(si>=P[pi].sentences.length&&pi<P.length-1){pi++;si=0}else si=Math.max(0,Math.min(P[pi].sentences.length-1,si));stop();state.passage=pi;state.sentence=si;state.showBuilder=false;state.showType=false;$('buildFeedback').textContent='';$('typeFeedback').textContent='';renderPractice();}
+function setSentence(i){stop();state.sentence=i;state.showBuilder=false;state.showType=false;$('buildFeedback').textContent='';$('typeFeedback').textContent='';renderPractice()}
+function selectChunk(i,undo){const k=currentKey();const arr=[...(state.buildPick[k]||[])];if(undo){const n=arr.indexOf(i);if(n>=0)arr.splice(n,1)}else if(!arr.includes(i))arr.push(i);state.buildPick[k]=arr;$('buildFeedback').textContent='';state.showBuilder=false;renderBuild()}
+function checkBuild(){const key=currentKey(),picked=state.buildPick[key]||[],chunks=P[state.passage].chunks[state.sentence];const ok=picked.length===chunks.length&&picked.every((v,i)=>v===i);const el=$('buildFeedback');if(ok){state.completed.add(key);el.textContent='Correct — the original sentence is restored.';el.className='feedback good'}else{el.textContent='Not yet in the original order. Check the grammar and meaning, then try again.';el.className='feedback bad'}renderBuild()}
+function checkType(){const key=currentKey(),given=state.typed[key]||'',correct=getSentenceRef(),el=$('typeFeedback');if(!given.trim()){el.textContent='Type your answer first.';el.className='feedback bad';return}const ok=norm(given)===norm(correct);if(ok){state.typingPassed.add(key);el.textContent='Correct — your sentence matches the original wording.';el.className='feedback good'}else{const a=norm(given).split(' '),b=norm(correct).split(' '),matching=a.filter((s,i)=>s===b[i]).length;el.textContent=`Check your wording: ${matching} / ${b.length} words match at the same positions. Listen again or reveal the answer.`;el.className='feedback bad'}renderType()}
+function speakPhrase(){if(state.gloss===null||!('speechSynthesis' in window)){return}stop();window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(TERMS[state.gloss].head);u.lang='en-US';u.rate=.85;window.speechSynthesis.speak(u)}
+// Buttons and interactions.
+$('readingTab').addEventListener('click',()=>setView('reading'));
+$('practiceTab').addEventListener('click',()=>setView('practice'));
+$('readerPlay').addEventListener('click',()=>startPart(state.passage,false));
+$('readerPlayAll').addEventListener('click',()=>{if(state.playAll&&!audio.paused){stop();return}startPart(state.passage,true)});
+$('readerStop').addEventListener('click',stop);$('viToggle').addEventListener('click',()=>{state.vi=!state.vi;$('viToggle').textContent=state.vi?'VI · ON':'VI · OFF';$('viToggle').setAttribute('aria-pressed',String(state.vi));P.forEach((_,i)=>$('vi-'+i).hidden=!state.vi)});
+for(const id of ['readerSeek','practiceSeek'])$(id).addEventListener('input',e=>{if(!audio.duration)return;audio.currentTime=audio.duration*Number(e.target.value)/1000;syncListening()});
+$('readerRate').addEventListener('change',e=>{audio.playbackRate=Number(e.target.value)});
+$('practicePlay').addEventListener('click',togglePracticePlay);
+$('passagePicker').addEventListener('change',e=>setPassage(Number(e.target.value)));
+for(const b of document.querySelectorAll('[data-mode]'))b.addEventListener('click',()=>setMode(b.dataset.mode));
+$('followPrev').addEventListener('click',()=>setSentence(Math.max(0,state.sentence-1)));
+$('followNext').addEventListener('click',()=>setSentence(Math.min(P[state.passage].sentences.length-1,state.sentence+1)));
+$('followRepeat').addEventListener('click',()=>playSentence(state.passage,state.sentence));
+$('buildSentencePicker').addEventListener('change',e=>setSentence(Number(e.target.value)));
+$('buildViToggle').addEventListener('click',()=>{state.hint=!state.hint;renderBuild()});
+$('buildListen').addEventListener('click',()=>playSentence(state.passage,state.sentence));
+$('buildCheck').addEventListener('click',checkBuild);
+$('buildHint').addEventListener('click',()=>{const k=currentKey(),arr=state.buildPick[k]||[],i=arr.length,correct=P[state.passage].chunks[state.sentence];if(i<correct.length){$('buildFeedback').textContent=`Next chunk begins: “${correct[i].split(' ').slice(0,2).join(' ')}…”`;$('buildFeedback').className='feedback'}});
+$('buildClear').addEventListener('click',()=>{state.buildPick[currentKey()]=[];state.showBuilder=false;$('buildFeedback').textContent='';renderBuild()});
+$('buildAnswer').addEventListener('click',()=>{state.showBuilder=!state.showBuilder;renderBuild()});
+$('buildPrev').addEventListener('click',()=>navigateSentence(-1));$('buildNext').addEventListener('click',()=>navigateSentence(1));
+$('typeSentencePicker').addEventListener('change',e=>setSentence(Number(e.target.value)));
+$('typeInput').addEventListener('input',e=>state.typed[currentKey()]=e.target.value);
+$('typeListen').addEventListener('click',()=>playSentence(state.passage,state.sentence));
+$('typeCheck').addEventListener('click',checkType);
+$('typeClear').addEventListener('click',()=>{state.typed[currentKey()]='';state.showType=false;$('typeFeedback').textContent='';renderType()});
+$('typeShow').addEventListener('click',()=>{state.showType=!state.showType;renderType()});
+$('typePrev').addEventListener('click',()=>navigateSentence(-1));$('typeNext').addEventListener('click',()=>navigateSentence(1));
+$('dialogClose').addEventListener('click',closeGloss);$('vocabBackdrop').addEventListener('click',e=>{if(e.target===$('vocabBackdrop'))closeGloss()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeGloss()});$('dialogSpeak').addEventListener('click',speakPhrase);
+$('dialogKnow').addEventListener('click',()=>{if(state.gloss===null)return;state.known.add(state.gloss);state.studying.delete(state.gloss);updateFocus();updateGlossState()});
+$('dialogStudy').addEventListener('click',()=>{if(state.gloss===null)return;state.studying.add(state.gloss);state.known.delete(state.gloss);updateFocus();updateGlossState()});
+document.addEventListener('click',e=>{let t=e.target.closest('[data-term]');if(t){showGloss(Number(t.dataset.term));return}t=e.target.closest('[data-playpart]');if(t){startPart(Number(t.dataset.playpart));return}t=e.target.closest('[data-jump]');if(t){setPassage(Number(t.dataset.jump),{scroll:true});return}t=e.target.closest('[data-follow]');if(t){setSentence(Number(t.dataset.follow));return}t=e.target.closest('[data-used]');if(t){selectChunk(Number(t.dataset.used),true);return}t=e.target.closest('[data-bank]');if(t){selectChunk(Number(t.dataset.bank),false);return}});
+document.addEventListener('keydown',e=>{const term=e.target.closest&&e.target.closest('[data-term]');if(term&&(e.key==='Enter'||e.key===' ')){e.preventDefault();showGloss(Number(term.dataset.term))}});
+$('passagePicker').innerHTML=P.map((p,i)=>`<option value="${i}">PART ${String.fromCharCode(65+i)} · ${esc(p.title)}</option>`).join('');renderReading();renderPractice();audio.playbackRate=1;updatePlayer();
+})();
+</script>
+</body></html>
